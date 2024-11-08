@@ -229,12 +229,33 @@ body {
     padding: 4% 5%;
     gap: 20px; 
 }
-.ganz-image {
-    width: 300px; 
-    height: 90%; 
-    border-radius: 20px;
+.image-container {
     position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
+.ganz-image {
+    display: block;
+    width: 300px; 
+    height: 100%; 
+    border-radius: 20px; 
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    font-size: 14px; 
+}
+
+
 .main-container-second
 {
     margin-top: 1%;
