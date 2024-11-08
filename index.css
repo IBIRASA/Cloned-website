@@ -262,9 +262,23 @@ body {
 }
 .div-green{
     background-color: green;
-    padding: 12px 30px;
+    padding: 8px 15px;
     border-radius: 10px;
     color: white;
     font-weight: bolder;
+    
 }
+.p-span
+{
+    font-size: 12px;
+    color: rgb(116, 114, 114);
+}
+.bt-span
 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
