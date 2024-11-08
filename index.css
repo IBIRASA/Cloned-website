@@ -233,8 +233,13 @@ body {
 
 .ganz-image {
     width: 300px; 
-    height:  90%; 
+    height: 90%; 
     border-radius: 20px;
+    position: relative;
+}
+
+.bottom-text {
+  
 }
 
 
